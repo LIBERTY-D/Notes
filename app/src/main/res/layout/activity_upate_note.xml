@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Activities.UpateNote">
+
+
+    <EditText
+        android:id="@+id/uptitleTxt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Title"/>
+    <EditText
+        android:hint="Note"
+        android:id="@+id/updescriptionTxt"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#7B1FA2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/upcancelNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50sp"
+            android:layout_marginVertical="20sp"
+            android:background="#C2185B"
+            android:text="cancel"
+            android:textColor="#E0EFEB" />
+
+        <Button
+            android:id="@+id/upsaveNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50sp"
+            android:layout_marginVertical="20sp"
+            android:background="#C2185B"
+            android:text="save"
+            android:textColor="#E0EFEB" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
